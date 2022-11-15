@@ -4,6 +4,20 @@ import java.util.Arrays;
 
 public class Sorular {
     public static void main(String[] args) {
+        /*
+        Java practise siteleri / soru cozumu
+https://www.w3resource.com/java-exercises/
+https://practiceit.cs.washington.edu/
+https://www.techiedelight.com/list-of-problems/
+https://www.java67.com/2013/01/10-programming-questions-and-exercises.html
+https://codingbat.com/java
+https://code-exercises.com/
+https://www.codesdope.com/practice/practice_java/
+https://www.freecodecamp.org/learn/
+https://java.meritcampus.com/java-quiz
+https://edabit.com/challenges/java
+http://www.beginwithjava.com/java/
+         */
 
        // 163.sayfaya kadar olan sorular
 
