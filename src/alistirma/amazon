@@ -1,0 +1,14 @@
+HİKAYE TANIMI-VALUE STATEMENT
+Amazon pazarlama birimi, ürün ekleme şefi olarak en çok satılması muhtemel olan ürünleri belirliyoruz.
+Bu ürünlerin ana sayfada 'Yeni Çıkanlar' sekmesi altında sergilenmesini istiyorum.
+Bahçe, Elektronik, Moda, Mutfak, Bebek,Oyuncak kategorilerinde çok satılan 7 yeni ürünü paylaşacağız.
+KABUL KRİTERLERİ- ACCEPTANCE CRITERIAS
+-Ürünün satıcı tarafından son 3 gün içinde sitemize yüklenmesi olması
+-İlk gün en az 30 adet olmak üzere toplamda 100 adet satışa ulaşmış olması
+-Ürünleri kategori başlıklarına yerleştirirken satış rakamına göre sıralanması
+- Sıralamanın son halini saatlik olarak kontrol edip, sayfanın otomatik olarak saatlik güncellenmesi
+BİTTİ TANIMI- DEFINITION OF DONE
+*Kod kontrol edildi.
+*Birim testleri yapıldı.
+*Kabul kriterleri karşılandı.
+*İlgili birim (Product owner) story kabulü

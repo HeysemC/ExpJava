@@ -24,5 +24,7 @@ public class Exp_61 {
         list.add(sayi);
         Collections.reverse(list);
         return list;
+
+
     }
 }
