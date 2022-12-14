@@ -1,0 +1,43 @@
+Programın akışı
+
+1. ilk olarak Car adlı parent sınıf oluşturuldu
+
+2. daha sonra bu sınıfın child sınıfı olarak Modest honda sınıfı oluşturuldu
+
+3.Modest honda sınıfının child'ı olan High_Quality_Honda oluşturuldu yani parent'tan child'a
+Car->Modest_Honda->High_Quality_Honda bu şekilde
+
+4.ve son olarak her iki sınıf arabada da ortak bulunması gereken özellikleri taşıyan dış ve iç araba adında iki
+interface oluşturularak dış iskelet tamamlandı
+
+5.runner sınıfı oluşturuldu ve burada kullanıcıya "please enter in the car model you'd like to purchase" sorusu yöneltildi
+eğer bu sorunun cevabı "High class" olursa  model ve yılı sorularak  high honda map'ine eklendi,
+sorunun cevabı "Modest" olursa modeli yılı soruldu ve son olarak  ek özellik olarak  sunroof isteyip ismediği soruldu
+evet ise toplam fiyata sunroof fiyatı yansıtılarak map'e atıldı
+
+*****************************************
+Bir class olusturunuz adi Car olsun
+icerisinde 3 instance variable olsun
+protected String make ;
+protected String model;
+protected int year ;
+Sonra 3 tane String return tipinden method olusturunuz
+arabaMarkasi
+arabaModeli
+arabaYili
+ve iki constructor olusturunuz
+1 parametreli
+1 parametresiz
+String model;
+int year
+Son olarak bir oject olusturup method lari main method da print ediniz
+Bir class olusturunuz adi Honda olsun
+icerisinde 3 instance variable olsun
+protected String make = "Honda";
+protected String model = "Accord";
+protected int year = 2012;
+Sonra 3 tane String return tipinden method olusturunuz
+arabaMarkasi
+arabaModeli
+arabaYili
+Son olarak bir oject olusturup method lari main method da print ediniz
