@@ -58,32 +58,52 @@ public class BookMain {
             default:
                 System.out.println("hatali giris");
                 break;
-
-
-
         }
 
 
     }
 
-    private static void bitir() {
+    public static void bitir() {
+
         System.out.println("bizi tercih ettiginiz icin danke");
     }
+    public static void tum_kitaplari_listele(List<Book> bookList) {
 
-    private static void tum_kitaplari_listele(List<Book> bookList) {
+        for (Book bk :bookList) {
+            System.out.println(bk.toString());
+        }
+    }
+    public static void numara_ile_kitap_sil(List<Book> bookList) {
+
+        System.out.println("silinecek kip refNo'yu giriniz");
+        int silNo=scan.nextInt();
+
+        for (Book bk: bookList) {
+            if (bk.getRefNo()==silNo){
+                bookList.remove(bk);
+                menu(bookList);
+            }
+
+        }
+        System.out.println(silNo + "no'lu kitap silindi");
+        menu(bookList);
+
     }
 
-    private static void numara_ile_kitap_sil(List<Book> bookList) {
+
+
+    public static void setScan(Scanner scan) {
+        BookMain.scan = scan;
     }
 
-    private static void kitapEkle(List<Book> bookList) {
+    public static void kitapEkle(List<Book> bookList) {
 
 
         System.out.println("kitap ismi giriniz");
-        String bookName= scan.nextLine();
+        String bookName= scan.next();
 
         System.out.println("yazar adi giriniz :");
-        String authorName=scan.nextLine();
+        String authorName=scan.next();
 
         System.out.println("yayin yili giriniz :");
         int publicationYear= scan.nextInt();
@@ -99,7 +119,7 @@ public class BookMain {
         menu(bookList);
 
     }
-    private static void kitapciKitaplari(List<Book> bookList){
+    public static void kitapciKitaplari(List<Book> bookList){
         Book book1=new Book("book1","yazar1",1901,101,++refNo1);
         Book book2=new Book("book2","yazar2",1902,102,++refNo1);
         Book book3=new Book("book3","yazar3",1903,103,++refNo1);

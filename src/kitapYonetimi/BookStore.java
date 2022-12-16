@@ -10,8 +10,25 @@ public class BookStore {
 		işlemleri yapmasına imkan tanıyan bir uygulama yazınız.
      */
 
-    List<Book> bookList=new ArrayList<>();
+   static List<Book> bookList=new ArrayList<>();
 
+    public static void main(String[] args) {
+
+        BookMain.kitapciKitaplari(bookList);
+
+        BookMain.kitapEkle(bookList);
+
+        Book sBook = new Book();
+
+        sBook.setBookName("Ahmet Hoca ile JAVA");
+        sBook.setAuthorName("Ahmet BULUTLUOZ");
+        sBook.setPublicationYear(2022);
+        sBook.setPrice(2000);
+        sBook.setRefNo(++sBook.refNo);
+
+        bookList.add(sBook);
+        BookMain.menu(bookList);
+    }
 
 
 
