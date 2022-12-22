@@ -1,4 +1,4 @@
-package kitapYonetimi;
+package sahaf;
 
 
 import java.util.ArrayList;
@@ -13,6 +13,9 @@ public class BookStore {
    static List<Book> bookList=new ArrayList<>();
 
     public static void main(String[] args) {
+
+        System.out.println("Kitapcida bulunan kitaplar"+bookList);
+
 
         BookMain.kitapciKitaplari(bookList);
 

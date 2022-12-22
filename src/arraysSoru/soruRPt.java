@@ -20,19 +20,23 @@ public static void main(String[] args) {
 
     for (int i = 1; i <=n ; i++) {
 
-        for (int j = 1; j <=i ; j++) {
+        for (int j = 1; j <= i; j++) {
 
-            seriOlusturma[index]=j;
+            seriOlusturma[index] = j;
 
             index++;
 
 
-
         }
+
 
     }
     System.out.println(Arrays.toString(seriOlusturma));//[1, 1, 2, 1, 2, 3, 1, 2, 3, 4]
 
+    int [] arr=new int[8];
+    arr[0]=1;
+    arr[2]=4;
+    System.out.println(Arrays.toString(arr));
 
 }
 

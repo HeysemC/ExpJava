@@ -80,6 +80,8 @@ public class MayinTarlasi {
 
 
 
+
+
         while (x<satir){
 
 

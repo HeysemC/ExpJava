@@ -1,0 +1,13 @@
+(Üçgen sınıfı) GeometricObject soyut sınıfından türetilmiş bir  Triangle sınıfı tasarlayınız.
+
+Triangle ve GeometricObject sınıfları için UML şemasını çiziniz ve  Triangle sınıfını yazınız.
+
+Kullanıcıdan,
+
+üçgenin kenar değerlerini,
+üçgenin rengi ve
+üçgenin dolu olup olmadığı bilgisini Boolean  türünden bir değer olarak alan bir test programı yazınız.
+
+Programınız Triangle nesnesini, girilen kenar değerleri, renk ve dolu olup olmadığı bilgisini kullanarak yaratacaktır.
+
+Program üçgenin alanını, çevresini, rengini ve dolu olup olmadığını belirten true ya da false değerini gösterecektir.
